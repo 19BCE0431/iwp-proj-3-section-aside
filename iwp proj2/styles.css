@@ -1,0 +1,151 @@
+body{
+  color: #ffffff;
+  background-color:#393E46;
+}
+header {
+  background-color:  #000000;
+  margin: 0 3rem 0 3rem;
+  width: 90%;
+  height: 5rem;
+  z-index: -1;
+  position: absolute;
+}
+
+h1 {
+  position: absolute;
+  left: 10rem;
+  color: #393E46;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 10%;
+  position: relative;
+}
+
+nav {
+  position: relative;
+  width: 40%;
+  float: right;
+  margin-right: 7rem;
+  z-index: 10;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 0.5rem;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EEEEEE;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #393E46;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #393E46;
+  color: #EEEEEE;
+  font-weight: bold;
+}
+
+li ul {
+  display: none;
+  position: absolute;
+}
+
+li:hover ul {
+  display: block;
+}
+
+li ul li {
+  clear: both;
+}
+
+section {
+
+  width: 80%;
+  float: left;
+  margin-right: 15px;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+article {
+  background-color: EEEEEE;
+  margin: 1rem;
+  border: 0.1rem solid #EEEEEE;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+aside {
+  border: 2px solid #393E46;
+  width: 15%;
+  padding: 5rem;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0.1rem solid #EEEEEE;
+  margin: 1rem;
+}
+
+#right{
+  float: left;
+}
+
+#left{
+  float: right;
+}
+
+.actor{
+  border: 0.1rem solid #EEEEEE;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 1rem;
+  float: left;
+  margin-right: 5rem;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+  padding: 0.5rem;
+  color: #393E46;
+  clear: both;
+  width: 40%;
+  background-color: #EEEEEE;
+}
+
+#ave1,#ave2,#ave3,#ave4{
+  position: relative;
+}
+
+.content{
+  padding-top: 1rem;
+}
+
+.movie{
+  border: 0.1rem solid #EEEEEE;
+  position: absolute;
+  height: 5rem;
+  width: 22rem;
+  top:1rem;
+  left:29rem;
+  z-index: -1;
+}
